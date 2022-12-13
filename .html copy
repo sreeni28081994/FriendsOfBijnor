@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Friends of Bijnor</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon-->
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/nav.css" rel="stylesheet">
+<link href="css/carousel.css" rel="stylesheet">
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link rel="stylesheet" href="css/slider-2.css">
+<!-- font-awesome-->
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5/css/all.min.css">
+
+<style>
+  .dropbtn {
+    
+    color: #2bb0ef;;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown1:hover .dropdown-content {display: block;}
+  .dropdown1:hover  {background-color: #2bb0ef !important;color: white !important;  }
+  .dropdown1:hover .dropbtn {color: white }
+
+
+
+  @media only screen and (max-width: 700px) {
+  
+    .dropdown-content{
+      width: fit-content !important;
+
+    }
+  
+}
+
+  </style>
+
+
+</head>
+<body>
+  <div class="top-head-2"> 
+  <div class="logo-head">
+         <div class="web-logo d-block d-lg-flex align-items-center justify-content-evenly"> <img src="img/web-logo.png" alt="web-logo"> <h3 class="text-white headingFont"> Friends of Bijnor</h3>
+        </div>
+   
+</div>
+
+<div class="sec-2"> 
+    <div class="top-head">
+        <div class="container">
+            <div class="row">
+                   <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="d-block align-items-end">
+
+                    <div class="extra-cell  text-lg-end text-sm-center">
+        
+         <li class="don-btn parent-btn" > <a href="#" target="_blank"> <span>Join Now</span> </a></li> 
+
+      </div>
+        </div>
+        </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="extra-cell  text-lg-start text-sm-center">
+  <ul class="text-lg-start text-sm-center"> 
+    <li><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel: +1 541 633 6342"> +1 541 633 6342</a> </li>
+    <li><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:friendsofbijnor@gmail.com"> friendsofbijnor@gmail.com</a></li>
+
+  </ul>
+</div>
+                </div>
+           
+
+            </div>
+            
+        </div>
+        
+    </div>
+
+      
+  </div>
+  </div>
+  <div class="navbar-outer">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand d-block d-sm-block d-md-block d-lg-none" href="#">Menu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL" aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+       <span> <img src="img/menu-icon.png" class="img-fluid"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample07XL">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a  class="nav-link dropdown-toggle" href="" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false">Diocese of Bijnor </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown04">
+              <li><a class="dropdown-item" href="overview.html">Overview</a></li>
+               <li><a class="dropdown-item" href="history.html">History</a></li>
+             <!------ <li><a class="dropdown-item" href="personnel-infrastructure.html">Personnel &amp; Infrastructure</a></li>   --->
+             <li><a class="dropdown-item" href="education.html">Education</a></li>
+              <li><a class="dropdown-item" href="vocational-training.html">Vocational Training</a></li>
+              <li><a class="dropdown-item" href="centers-for-destitutes.html">Centers for Destitutes</a></li>
+              <li><a class="dropdown-item" href="health.html">Health Apostolate</a></li>
+               <li><a class="dropdown-item" href="social-work.html">Social Work Apostolate</a></li>
+        <!-----   <li><a class="dropdown-item" href="leprosy-eradication.html">Leprosy Eradication</a></li>   --->
+              <li><a class="dropdown-item" href="palana-bhavan.html">Palana Bhavan</a></li>
+              <li><a class="dropdown-item" href="pastoral-formation.html">Pastoral Formation</a></li>
+              <li><a class="dropdown-item" href="future-challenges.html">Future Challenges</a></li>
+
+
+            </ul>
+          </li>
+
+        <li class="nav-item">
+            <a class="nav-link " href="board-of-directors.html">Board of Directors </a>
+            
+          </li>
+           <li class="nav-item">
+            <a class="nav-link " href="matching-contribution.html">Matching Contribution</a>
+          </li>
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="sponser.html" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Media</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown04">
+    <!-------      <li><a class="dropdown-item" href="news.html">News</a></li>  --->
+    <li><a class="dropdown-item" href="photos.html">Photo Archives</a></li>
+          <li><a class="dropdown-item" href="video.html">Videos</a></li>
+             
+            </ul>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us </a>          
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+
+</div>
+  </nav>
+
+<main>
+  <section class="slideshow" id="js-header">
+    
+    <div class="slideshow__slide js-slider-home-slide is-current" data-slide="1">
+    <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1" data-position="top" data-target="#js-header">
+      <div class="slideshow__slide-background-load-wrap background-absolute">
+        <div class="slideshow__slide-background-load background-absolute">
+          <div class="slideshow__slide-background-wrap background-absolute">
+            <div class="slideshow__slide-background background-absolute">
+              <div class="slideshow__slide-image-wrap background-absolute">
+                <div class="slideshow__slide-image background-absolute" style="background-image: url('img/banner-1.jpg');"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slideshow__slide-caption">
+      <div class="slideshow__slide-caption-text">
+        <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+          <h1 class="slideshow__slide-caption-title">Lending a helping hand to those in need.</h1>
+          <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="contact.html">
+            <span class="slideshow__slide-caption-subtitle-label">See how</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <div class="slideshow__slide js-slider-home-slide is-next" data-slide="2">
+    <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1" data-position="top" data-target="#js-header">
+      <div class="slideshow__slide-background-load-wrap background-absolute">
+        <div class="slideshow__slide-background-load background-absolute">
+          <div class="slideshow__slide-background-wrap background-absolute">
+            <div class="slideshow__slide-background background-absolute">
+              <div class="slideshow__slide-image-wrap background-absolute">
+                <div class="slideshow__slide-image background-absolute" style="background-image: url('img/banner-2.jpg');"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slideshow__slide-caption">
+      <div class="slideshow__slide-caption-text">
+        <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+          <h1 class="slideshow__slide-caption-title">See through the field</h1>
+          <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="history.html">
+            <span class="slideshow__slide-caption-subtitle-label">Learn more about</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="slideshow__slide js-slider-home-slide is-prev" data-slide="3">
+    <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1" data-position="top" data-target="#js-header">
+      <div class="slideshow__slide-background-load-wrap background-absolute">
+        <div class="slideshow__slide-background-load background-absolute">
+          <div class="slideshow__slide-background-wrap background-absolute">
+            <div class="slideshow__slide-background background-absolute">
+              <div class="slideshow__slide-image-wrap background-absolute">
+                <div class="slideshow__slide-image background-absolute" style="background-image: url('img/banner-4.jpg');"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slideshow__slide-caption">
+      <div class="slideshow__slide-caption-text">
+        <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+          <h1 class="slideshow__slide-caption-title">Hey, take a time to relax!</h1>
+          <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="health.html">
+            <span class="slideshow__slide-caption-subtitle-label">Everybody needs</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slideshow__slide js-slider-home-slide is-prev" data-slide="4">
+    <div class="slideshow__slide-background-parallax background-absolute js-parallax" data-speed="-1" data-position="top" data-target="#js-header">
+      <div class="slideshow__slide-background-load-wrap background-absolute">
+        <div class="slideshow__slide-background-load background-absolute">
+          <div class="slideshow__slide-background-wrap background-absolute">
+            <div class="slideshow__slide-background background-absolute">
+              <div class="slideshow__slide-image-wrap background-absolute">
+                <div class="slideshow__slide-image background-absolute" style="background-image: url('img/banner-5.jpg');"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slideshow__slide-caption">
+      <div class="slideshow__slide-caption-text">
+        <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
+          <h1 class="slideshow__slide-caption-title">Hey, take a time to relax!</h1>
+          <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="aboout.html">
+            <span class="slideshow__slide-caption-subtitle-label">Everybody needs</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="c-header-home_footer">
+    <div class="o-container">
+      <div class="c-header-home_controls -nomobile o-button-group">
+        <div class="js-parallax is-inview" data-speed="1" data-position="top" data-target="#js-header">
+          <button class="o-button -white -square -left js-slider-home-button js-slider-home-prev" type="button">
+            <span class="o-button_label">
+            <i class="fas fa-chevron-left"></i>
+            </span>
+          </button>
+          <button class="o-button -white -square js-slider-home-button js-slider-home-next" type="button">
+            <span class="o-button_label">
+             <i class="fas fa-chevron-right"></i>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+    
+  </section>
+
+<!-- partial -->
+<div class="features-1"> 
+ <div class="container">
+    <div class="row">
+
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+            <div class="f-box"> 
+         <div class="f-iocn">
+       <img src="img/feat-img-1.jpg" class="img-1 img-fluid">
+          </div>
+          <div class="f-content"> 
+       <a href="#">Pastoral Care</a>
+       <p class="text-center">The Diocese has 49 students studying for priesthood. These young men begin their initially study</p>
+       <a href="pastoral-formation.html" class="btn-ff"> Read more</a>
+      </div>
+      </div>
+      </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
+        <div class="f-box"> 
+         <div class="f-iocn">
+            <img src="img/feat-img-2.jpg" class=" img-0 img-fluid">
+     
+          </div>
+          <div class="f-content"> 
+       <a href="">Care for Destitute</a>
+       <p class="text-center">Premdham, a most remarkable home-like place, is run by priests and other volunteers who take care 80 plus young boys and men.</p>
+       <a href="center-for-destitutes.html" class="btn-ff"> Read more</a>
+      </div>
+      </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+        <div class="f-box"> 
+         <div class="f-iocn">
+            <img src="img/feat-img-3.jpg" class=" img-0 img-fluid">
+          </div>
+          <div class="f-content"> 
+       <a href="">Vocational Training</a>
+       <p class="text-center">Working hand-in hand religious sisters and priests together run four Ashadeep Centers for Education & Rehabilitation </p>
+       <a href="vocational-training.html" class="btn-ff"> Read more</a>
+      </div>
+      </div>
+      </div>
+
+<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+        <div class="f-box"> 
+         <div class="f-iocn">
+            <img src="img/feat-img-4.jpg" class=" img-0 img-fluid">
+          </div>
+          <div class="f-content"> 
+       <a href="">Education</a>
+       <p class="text-center">The Diocese is served by 175 religious sisters from several different congregations. Living in 43 convents spread out across</p>
+       <a href="education.html" class="btn-ff"> Read more</a>
+      </div>
+      </div>
+      </div>
+
+  
+
+    </div><!-- .row -->
+
+  </div><!-- .container -->
+</div>
+
+
+<div class="about-us">
+    <div class="container">
+        <div class="row"> 
+
+<div class="col-lg-6 col-md-6 col-sm-12">
+<img src="img/aboutimg.png" class="img-fluid">
+</div>
+
+<div class="col-lg-6 col-md-6 col-sm-12 text-lg-end text-sm-center"> 
+ <div class="about-white-bg"> 
+<h1 class="text-lg-start text-sm-center title-for-all"> About Us </h1>
+<p>Friends of Bijnor, Inc is a charitable organization. As humanitarians our efforts support the Good News of the Gospels in the Catholic Diocese of Bijnor in Uttarakhand, India. Our mission is to help relieve the poverty and suffering of some of the poorest people in the world. The Diocese spreads over the Himalayan ranges of India. </p>
+<br>
+
+<p class="text-lg-start text-sm-center"> <a href="about.html" class="ab-btn"> Read more</a> </p>
+</div>
+</div>
+</div>
+    </div>
+</div>
+
+
+
+<section class="carousel_se_03 cause-bg">
+    <div class="container-fluid px-0 py-3">
+         <div class="container ">
+              <div class="row">
+         
+  <div class="heading-sec mb-0"> 
+    <h1 class="text-center title-for-all" style="color: #5e5e5e;">
+      <p class="text-center mb-0" style=" color: #00bfff; font-size: 25px;">Who is </p>
+     Friends of Bijnor</h1>
+
+  </div>
+
+                <div class="col-md-12 px-0 ">
+                    <div class="col-md-12 px-0 p-t-30 ">
+                      <div class="owl-carousel carousel_se_03_carousel owl-theme">
+                               <!--1 -->
+                               <div class="item">
+                                 <div class="col-md-12 wow fadeInUp ">
+                                    <div class="main_services-2 text-center" style="">
+                                        <a href="#">
+                                          <div class="square_icon_img-2">
+                                              <img src="img/team3.jpg" class="img-fluid">
+                                          </div>
+                                          <div class="cause-box-2"> 
+                                          <h6 class="">Bishop Vincent Nellaiparambil</h6>
+                                           <p> <b> ( President )</b> </p>
+                                         <span> vincentnellai@gmail.com </span>
+                                             <a href="bishop-vincent.html" class="d-block text-center"> Readmore</a> 
+                                           </div>
+                                        </a>
+                                   </div>
+                                  </div>
+                                </div>
+
+                                  
+
+                                   <!--2 -->
+                               <div class="item">
+                                 <div class="col-md-12 wow fadeInUp ">
+                                    <div class="main_services-2 text-center" style="">
+                                        <a href="#">
+                                          <div class="square_icon_img-2">
+                                              <img src="img/team2.jpg" class="img-fluid">
+                                          </div>
+                                          <div class="cause-box-2"> 
+                                          <h6 class="">Bishop Gratian Mundadan</h6>
+                                           <p> &nbsp;</p>
+                                         <span> bishopgratian@gmail.com </span>
+                                          <a href="bishop-gratian.html" class="d-block text-center"> Readmore</a> 
+                                          </div>
+                                        </a>
+                                   </div>
+                                  </div>
+                                </div>
+
+                                 <!-- 3-->
+                               <div class="item">
+                                 <div class="col-md-12 wow fadeInUp ">
+                                    <div class="main_services-2 text-center" style="">
+                                        <a href="#">
+                                          <div class="square_icon_img-2">
+                                              <img src="img/team1.jpg" class="img-fluid">
+                                          </div>
+                                          <div class="cause-box-2"> 
+                                          <h6 class="">Bishop John Vadakel</h6>
+                                           <p> &nbsp;</p>
+                                         <span> johnvadakel75@gmail.com </span>
+                                          <a href="bishop-john.html" class="d-block text-center"> Readmore</a> 
+                                          </div>
+                                        </a>
+                                   </div>
+                                  </div>
+                                </div>
+
+
+                              </div>
+                          </div>
+                </div>
+                   
+            </div>
+         </div>
+    </div>
+</section> 
+
+<div class="patron-sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-3 col-sm-12 p-md-0 p-lg-5">
+     
+      </div>
+
+  <div class="col-lg-6 col-md-9 col-sm-12">
+   <div class="row">
+     <div class="col-lg-6 col-md-6 col-sm-12 counter-2">
+            <div class="counter-box text-center ">
+            <div class="c-icon">
+                 <i class="fas fa-rupee-sign" style="color: #efb400;"></i>
+                </div> 
+                <span class="counter">28273</span>
+                <p>Put your content here</p>
+             
+                
+                
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 counter-2">
+            <div class="counter-box text-center">
+            <div class="c-icon">
+                <i class="fas fa-umbrella" style="color:#e00000;"></i>
+                </div> 
+                 <span class="counter">97</span> 
+                
+                <p>Put your content here</p>
+            
+                
+            </div>
+        </div>
+
+         <div class="col-lg-6 col-md-6 col-sm-12 counter-2">
+            <div class="counter-box text-center">
+            <div class="c-icon">
+                 <i class="fas fa-user-shield" style="color:#6c00f2"></i>
+                </div> 
+                 <span class="counter">100</span>
+                <p>Put your content here</p>
+            
+                
+                
+            </div>
+        </div>
+
+         <div class="col-lg-6 col-md-6 col-sm-12 counter-2">
+            <div class="counter-box text-center">
+            <div class="c-icon">
+                 <i class="fas fa-users" style="color:#008f11"></i>
+                </div> 
+                 <span class="counter">50</span>
+                <p>Put your content here</p>
+            
+                
+                
+            </div>
+        </div>
+   </div>
+  </div>
+
+    </div>
+  </div>
+</div>
+
+<section class="our-focus" data-aos="fade-up">
+  <div class="container">
+    <div class="row">
+        <div class="heading-sec mb-0"> 
+    <h1 class="text-center title-for-all" style="color: #5e5e5e;">
+      <p class="text-center mb-0" style=" color: #00bfff; font-size: 25px;">We Believe</p>
+    We can Save <br>
+more Lifes with you</h1>
+
+  </div>
+
+<div class="col-lg-6 col-md-12 col-sm-12">
+  <div class="img-hover-zoom">
+   <img src="img/focus-1.png" class="img-fluid">
+  </div>
+  <h6 class="text-center">A Child in a <br>
+relief camp </h6>
+</div>
+<div class="col-lg-6 col-md-12 col-sm-12">
+  <div class="img-hover-zoom">
+   <img src="img/focus-2.png" class="img-fluid">
+  </div>
+<h6 class="text-center">Providing medicine at <br>
+the Flood Affected
+</h6>
+</div>
+
+
+<div class="col-lg-6 col-md-12 col-sm-12">
+  <div class="img-hover-zoom">
+   <img src="img/focus-3.png" class="img-fluid">
+  </div>
+  <h6 class="text-center">Students at a  <br>
+Non- Formal School</h6>
+</div>
+
+
+<div class="col-lg-6 col-md-12 col-sm-12">
+  <div class="img-hover-zoom">
+   <img src="img/focus-4.png" class="img-fluid">
+  </div>
+  <h6 class="text-center">Training for  <br>
+Village Girls</h6>
+</div>
+
+
+    </div>
+  </div>
+</section>
+<section class="news-feed">
+  <div class="container">
+    <!--Start code-->
+    <div class="row">
+
+  <div class="heading-sec mb-0"> 
+    <h1 class="text-center title-for-all" style="color: #5e5e5e;">
+      <p class="text-center mb-0" style=" color: #00bfff; font-size: 25px;"> Latest News </p>
+    News & Features</h1>
+
+  </div>
+        <div class="col-12">
+            <!--SECTION START-->
+            <section class="row">
+                <!--Start slider news-->
+                <div class="col-12 col-md-6 pb-0 pb-md-3 pt-2 pr-md-1">
+                 <div class="card border-0 rounded-0 text-white overflow zoom">
+                 <div class="position-relative">
+                                    <!--thumbnail img-->
+                                    <div class="ratio_right-cover-2 image-wrapper">
+                                        <a href="">
+                                            <img class="img-fluid"
+                                                 src="img/news/news-1.jpg"
+                                                 alt="blog website templates bootstrap">
+                                        </a>
+                                    </div>
+                                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow" style="    bottom: 0;
+    background: rgb(0, 0, 0, 0.5); background: rgb(43 176 239 / 48%);
+    box-shadow: 0px -20px 20px #2bb0ef8f;">
+                                        <!-- category -->
+                                        <a class="p-1 badge badge-primary rounded-0" href="" style="background:#f00">Adventure</a>
+                                        <!--title-->
+                                        <a href="news-details.html">
+                                            <h2 class="h5 text-white my-1">Ditch receipts and four other tips to be a shopper</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                 </div>
+                </div>
+                <!--End slider news-->
+                
+                <!--Start box news-->
+                <div class="col-12 col-md-6 pt-2 pl-md-1 mb-3 mb-lg-4">
+                    <div class="row">
+                        <!--news box-->
+                        <div class="col-6 pb-1 pt-0 pr-1">
+                            <div class="card border-0 rounded-0 text-white overflow zoom">
+                                <div class="position-relative">
+                                    <!--thumbnail img-->
+                                    <div class="ratio_right-cover-2 image-wrapper">
+                                        <a href="">
+                                            <img class="img-fluid"
+                                                 src="img/news/news-2.jpg"
+                                                 alt="">
+                                        </a>
+                                    </div>
+                                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow" style="    bottom: 0;
+    background: rgb(0, 0, 0, 0.5); background: rgb(43 176 239 / 48%);
+    box-shadow: 0px -20px 20px #2bb0ef8f;">
+                                        <!-- category -->
+                                        <a class="p-1 badge badge-primary rounded-0" href="" style="background:#f00">Lifestyle</a>
+
+                                        <!--title-->
+                                        <a href="news-details.html">
+                                            <h2 class="h6 text-white my-1">Should you see the Fantastic Beasts sequel?</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--news box-->
+                        <div class="col-6 pb-1 pl-1 pt-0">
+                            <div class="card border-0 rounded-0 text-white overflow zoom">
+                                <div class="position-relative">
+                                    <!--thumbnail img-->
+                                    <div class="ratio_right-cover-2 image-wrapper">
+                                        <a href="">
+                                            <img class="img-fluid"
+                                                 src="img/news/news-3.jpg"
+                                                 alt="bootstrap templates for blog">
+                                        </a>
+                                    </div>
+                                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow" style="    bottom: 0;
+    background: rgb(0, 0, 0, 0.5); background: rgb(43 176 239 / 48%);
+    box-shadow: 0px -20px 20px #2bb0ef8f;">
+                                        <!-- category -->
+                                        <a class="p-1 badge badge-primary rounded-0" href=""style="background:#f00">Motocross</a>
+                                        <!--title-->
+                                        <a href="news-details.html">
+                                            <h2 class="h6 text-white my-1">Three myths about Florida elections recount</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--news box-->
+                        <div class="col-6 pb-1 pr-1 pt-3">
+                            <div class="card border-0 rounded-0 text-white overflow zoom">
+                                <div class="position-relative">
+                                    <!--thumbnail img-->
+                                    <div class="ratio_right-cover-2 image-wrapper">
+                                        <a href="">
+                                            <img class="img-fluid"
+                                                 src="img/news/news-4.jpg"
+                                                 alt="bootstrap blog wordpress theme">
+                                        </a>
+                                    </div>
+                                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow" style="    bottom: 0;
+    background: rgb(0, 0, 0, 0.5); background: rgb(43 176 239 / 48%);
+    box-shadow: 0px -20px 20px #2bb0ef8f;">
+                                        <!-- category -->
+                                        <a class="p-1 badge badge-primary rounded-0" href="" style="background:#f00">Fitness</a>
+                                        <!--title-->
+                                        <a href="news-details.html">
+                                            <h2 class="h6 text-white my-1">Finding Empowerment in Two Wheels and a Helmet</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--news box-->
+                        <div class="col-6 pb-1 pl-1 pt-3">
+                            <div class="card border-0 rounded-0 text-white overflow zoom">
+                                <div class="position-relative">
+                                    <!--thumbnail img-->
+                                    <div class="ratio_right-cover-2 image-wrapper">
+                                        <a href="">
+                                            <img class="img-fluid"
+                                                 src="img/news/news-5.jpg"
+                                                 alt="blog website templates bootstrap">
+                                        </a>
+                                    </div>
+                                    <div class="position-absolute p-2 p-lg-3 b-0 w-100 bg-shadow" style="    bottom: 0;
+    background: rgb(0, 0, 0, 0.5); background: rgb(43 176 239 / 48%);
+    box-shadow: 0px -20px 20px #2bb0ef8f;
+">
+                                        <!-- category -->
+                                        <a class="p-1 badge badge-primary rounded-0" href="" style="background:#f00">Adventure</a>
+                                        <!--title-->
+                                        <a href="news-details.html">
+                                            <h2 class="h6 text-white my-1">Ditch receipts and four other tips to be a shopper</h2>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end news box-->
+                    </div>
+                </div>
+                <!--End box news-->
+            </section>
+            <!--END SECTION-->
+        </div>
+    </div>
+    <!--end code-->
+
+</div>
+</section>
+  <div id="map_canvas" class="mapping" style="border-top:1px solid #00bfff; border-bottom:1px solid #00bfff;">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.2826656578827!2d-73.93856118516914!3d41.15018301863039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2c3d7d0c938df%3A0xb87d297c6d68f28d!2s24%20Friend%20St%2C%20Congers%2C%20NY%2010920%2C%20USA!5e0!3m2!1sen!2sin!4v1654858161892!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> 
+             
+
+
+<div class="call-to-act">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 m-auto">
+        <ul class="ul-box">
+          <li><a href="">refer a new member</a></li>
+          <li><a href="">rejoin or chnage clubs</a></li>
+          <a href="http://friendsofbijnor.org/page/donate" style="padding: 20px 40px; border:2px solid #fff; border-radius: 48px; color: #fff;" class="ullist" target="_blank">Donate Now</a>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <!-- <img src="img/web-logo.png" class="img-fluid img-responsive d-block" > -->
+                <ul  class=" footer-links center">
+                  <li  class="home px-4"><a href="index.html" class="ahover">Home</a></li>
+                  <li class="home px-4"><a href="overview.html" class="ahover">Diocese of Bijnor</a></li>
+                  <li class="home px-4"><a href="board-of-directors.html" class="ahover">Board of Directors</a></li>
+                  <li class="home px-4"><a href="matching-contribution.html" class="ahover">Matching Contribution</a></li>
+                  <li class="home px-4"><a href="Membership.html" class="ahover">Membership</a></li>
+
+                  <li class="nav-item">
+                    <a class="nav-link " href="Membership.html">Membership</a>
+                  </li>
+                  
+                  <li class="home px-4"><a href="photos.html" class="ahover">Media</a></li>
+    <li class="home px-4"><a href="contact.html" class="ahover">Contact us </a></li>
+
+              </ul>
+                    </div>
+                     <div class="col-lg-12 col-md-12">
+                      <ul class="social-network social-circle " data-aos="flip-up">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              
+
+            </div>
+        </div>
+    </div>
+   
+<div class="bottom-foot"> 
+ <div class="container ">
+      <div class="row"> 
+      <div class="col-lg-12 col-md-12 col-sm-12"> 
+<div class="copyright"> © Copyright 2022<strong><span> &nbsp;FriendsofBijnor</span></strong>. All Rights Reserved </div>
+<div class="credits"> Powered by- 
+         <a href="https://www.loftytechnologies.com/" target="_blank"> 
+         <img src="img/lofty-log.png"> 
+         </a> 
+        </div>
+      </div>
+       
+    </div>
+    </div>
+</div>
+</footer>
+
+<div class="scroll-top-wrapper ">
+  <span class="scroll-top-inner">
+    <i class="fas fa-chevron-up"></i>
+  </span>
+</div>
+
+
+
+ <!--  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'> </script>   -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.7.8/dist/index.bundle.min.js"></script> -->
+
+<script type="text/javascript">
+  $(document).ready(function() {
+
+$('.counter').each(function () {
+$(this).prop('Counter',0).animate({
+Counter: $(this).text()
+}, {
+duration: 4000,
+easing: 'swing',
+step: function (now) {
+$(this).text(Math.ceil(now));
+}
+});
+});
+
+});
+</script>
+<script type="text/javascript">
+  
+$(document).ready(function(){
+
+$(function(){
+ 
+    $(document).on( 'scroll', function(){
+ 
+      if ($(window).scrollTop() > 100) {
+      $('.scroll-top-wrapper').addClass('show');
+    } else {
+      $('.scroll-top-wrapper').removeClass('show');
+    }
+  });
+ 
+  $('.scroll-top-wrapper').on('click', scrollToTop);
+});
+ 
+function scrollToTop() {
+  verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+  element = $('body');
+  offset = element.offset();
+  offsetTop = offset.top;
+  $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+
+});
+
+
+</script>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/carausol_slider.js"></script>
+<script  src="js/slider-script2.js"></script>
+
+
+</body>
+
+
+</html>
+
